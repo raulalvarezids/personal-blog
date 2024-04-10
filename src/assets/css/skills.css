@@ -1,0 +1,21 @@
+.skills__contianer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+@media (min-width:1000px) {
+
+    .skills__contianer{
+        width: 60%;
+        gap: 10px;  
+        row-gap: 25px;      
+    }
+    
+
+}

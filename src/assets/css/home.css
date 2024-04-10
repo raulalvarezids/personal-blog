@@ -1,0 +1,28 @@
+.All__title{
+    text-align: center;    
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: 3px solid ;
+    border-image: linear-gradient( 270deg,#00ffbd, #5dff00, #efff00, #00fff4) 1;            
+    margin-bottom: 20px;
+    padding-top: 50px;    
+}
+
+.container{
+    margin-top: 50px;    
+}
+
+
+@media (min-width:767px) {
+
+    .All__title{       
+        width: 300px;                
+        font-size: clamp(1rem,1vw + 3rem, 6rem);   
+        padding-top: clamp(1rem, 1vw + 6rem, 10rem);         
+        width: clamp(15rem,1vw + 30rem, 50rem);
+    }
+        
+}
+
+
+

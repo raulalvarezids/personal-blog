@@ -1,0 +1,19 @@
+.proyectos__all__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
+
+
+@media (min-width:1024px) {
+    .proyectos__all__container{
+        width: 100%;
+        flex-direction: row;        
+        flex-wrap: wrap;        
+        margin-top: 100px;
+        justify-content: center; 
+        align-items: flex-start;               
+        gap: clamp(1rem, 10vw,10rem)
+    }   
+
+}

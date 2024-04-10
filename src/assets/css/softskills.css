@@ -1,0 +1,47 @@
+
+
+.ull__container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+}
+
+.container__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.container__item > li{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (min-width:767px) {
+
+    .container__item{
+        display: flex;
+        flex-direction: row;    
+        gap: 30px;    
+        justify-content: space-between;
+        width: 70%;        
+    }
+
+    
+
+    .ull__container{
+    margin-top: 80px;
+    }
+
+
+    .container__item > li{        
+        font-size: clamp(1rem, 2vw, 5rem);
+             
+    }
+            
+}

@@ -1,0 +1,29 @@
+
+.edu__container > h4{
+    text-align: center;
+}
+
+.edu__container > p {
+    text-align: center;    
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width:767px) {
+    
+    .edu__container > h4{
+        font-size: clamp(1rem, 2.5vw, 5rem);
+    }
+    .edu__container > p {
+        font-size: clamp(1rem, 1.5vw, 4rem);
+    }
+
+    
+    .edu__container{
+        padding-bottom: 20px;
+    }
+
+}

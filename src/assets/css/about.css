@@ -1,0 +1,135 @@
+.css-selector {
+    background: linear-gradient(270deg, #00ffbd, #5dff00, #efff00, #00fff4);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+    border-radius: 10px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+.about__container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;    
+    padding-top: 50px;    
+}
+
+.about__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+}
+.maing__pic{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.icons__container{
+    display: flex;
+    gap: 20px;
+}
+
+.icon__item{
+    width: 25px;
+    height: auto;
+}
+
+.parrafo__about{
+    width: 80%;
+    font-size: 15px;    
+    text-align: justify;
+}
+
+.as{
+    cursor: pointer;
+}
+
+
+
+
+@media (min-width:767px) {
+    .about__title{
+        font-size: clamp(0.6rem,1vw + 0.2rem, 1.9rem);
+    }
+
+    .about__container{       
+        padding-top: clamp(1rem, 1vw + 6rem, 10rem);            
+    }
+
+    .parrafo__about{
+        font-size: clamp(1rem,2vw, 2rem); 
+       
+    }
+
+    .maing__pic{                
+        width: clamp(1rem,25vw , 19rem);
+    }
+
+}
+
+
+@media (min-width:1024px) {
+               
+    .about__container{
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: 
+        "item1 item1 item1 item2"
+        "item1 item1 item1 item2"
+        ". item11 . ."
+        ". . . ."
+        "item3 item3 item3 item3"
+        "item3 item3 item3 item3"        
+        ;
+    }
+
+    .about__title{
+        grid-area: item1;
+    }
+
+    .icons__container{
+     grid-area: item1;   
+     justify-content: center;
+     margin-top: 300px;
+    }
+    
+    .icon__item{        
+        width: clamp(0.7rem,1vw + 2rem, 4rem);
+    }
+
+    
+    .maing__pic{
+        grid-area: item2;        
+    }
+
+    .parrafo__about{
+        grid-area: item3;        
+         width: 100%;   
+        margin: 0 auto;        
+    }
+    
+}
