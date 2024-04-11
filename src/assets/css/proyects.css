@@ -4,6 +4,28 @@
     gap: 30px;    
 }
 
+.reco__container{
+    max-width:80%;
+    font-size: 13px;    
+    margin-inline: auto;
+    text-align: justify;
+    margin-block: 30px;
+}
+
+@media (min-width:935px) {
+    .reco__container{        
+        margin-block: 90px;
+    }        
+
+    .reco__tittle{
+        font-size: clamp(1rem,2.5vw, 3rem);  
+    }
+
+    .reco__parrafo{
+        font-size: clamp(1rem,1.6vw, 2rem); 
+    }
+}
+
 
 @media (min-width:1024px) {
     .proyectos__all__container{
@@ -14,6 +36,5 @@
         justify-content: center; 
         align-items: flex-start;               
         gap: clamp(1rem, 10vw,10rem)
-    }   
-
+    }       
 }
