@@ -10,6 +10,6 @@ export interface Proyectos  {
     img:string,
     tecnologias: Tecnoloy[],
     url:string,
-    front:string,
-    back:string
+    front:string | null ,
+    back:string | null
 }

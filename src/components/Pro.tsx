@@ -21,10 +21,9 @@ function Pro({name,descripcion,img,tecnologias,url,back,front}:Proyectos) {
                 </div>
 
                 <div className='conatiner__gits'>
-
                     
-                    <a href={front} target="_blank"><img src={gith} alt=""  className='img__pro plis'/></a>
-                    <a href={back} target="_blank"><img src={gith} alt="" className='img__pro plis'/></a>
+                    {front && <a href={front} target="_blank"><img src={gith} alt=""  className='img__pro plis'/></a>}
+                    {back && <a href={back} target="_blank"><img src={gith} alt="" className='img__pro plis'/></a>}
 
                 </div>
                 

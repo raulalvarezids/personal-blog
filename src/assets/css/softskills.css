@@ -40,7 +40,7 @@
 
 
     .container__item > li{        
-        font-size: clamp(1rem, 2vw, 5rem);
+        font-size: clamp(1rem, 1.8vw, 5rem);
              
     }
             

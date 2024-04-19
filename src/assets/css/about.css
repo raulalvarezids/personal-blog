@@ -80,7 +80,7 @@
     }
 
     .parrafo__about{
-        font-size: clamp(1rem,2vw, 2rem); 
+        font-size: clamp(1rem,1.6vw, 2rem); 
        
     }
 

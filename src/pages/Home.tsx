@@ -26,12 +26,31 @@ import fig from '../assets/images/fg.png'
 
 
 import furl from '../assets/images/furl.png'
+import ex from '../assets/images/muscle.png'
 import { Proyectos, Tecnoloy } from '../interface/proyecto';
 import Skills from '../components/Skills';
 import SoftSkills from '../components/SoftSkills';
 import Education from '../components/Education';
 
 const projects : Proyectos[]  = [
+    {
+        name:'Url Shortener',
+        descripcion:'Es una pagina sobre free Url shortener en el cual se coloca una url larga y se transforma en una short-url.',
+        img:furl,        
+        tecnologias:[{img:node,name:'Node js'}, {img:expe,name:'Express'},{img:rc,name:'React js'}, {img:js,name:'Javascript'},{img:mongo,name:'Mongodb'} ,{img:redu,name:'Redux'}],
+        url:'https://free-url-shortener-personal.netlify.app',
+        front:'https://github.com/raulalvarezids/url-shortener-front',
+        back:'https://github.com/raulalvarezids/url-shortener-api'
+    },
+    {
+        name:'Muslce Exercises',
+        descripcion:'Muestra músculos del cuerpo y ejercicios que puedes realizar para entrenar cada uno de ellos.',
+        img:ex,        
+        tecnologias:[{img:rc,name:'React js'}, {img:ts,name:'Typescript'}],
+        url:'https://exercise-blog.netlify.app/',
+        front:'https://github.com/raulalvarezids/exercises-blog',
+        back:null
+    },
     {
         name:'Gym Blgo',
         descripcion:'Es una página con temática de gimnasio en la cual se pueden visualizar rutinas, culturistas e información relevante sobre las calorías.',
@@ -41,15 +60,7 @@ const projects : Proyectos[]  = [
         front:'https://github.com/raulalvarezids/gym-front',
         back:'https://github.com/raulalvarezids/gym-api'
     },
-    {
-        name:'Url Shortener',
-        descripcion:'Es una pagina sobre free Url shortener en el cual se coloca una url larga y se transforma en una short-url.',
-        img:furl,        
-        tecnologias:[{img:node,name:'Node js'}, {img:expe,name:'Express'},{img:rc,name:'React js'}, {img:js,name:'Javascript'},{img:mongo,name:'Mongodb'} ,{img:redu,name:'Redux'}],
-        url:'https://free-url-shortener-personal.netlify.app',
-        front:'https://github.com/raulalvarezids/url-shortener-front',
-        back:'https://github.com/raulalvarezids/url-shortener-api'
-    }
+   
 ]
 
 const ssk : Tecnoloy[] = [

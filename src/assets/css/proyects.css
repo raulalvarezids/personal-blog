@@ -14,15 +14,17 @@
 
 @media (min-width:935px) {
     .reco__container{        
+        width: 70%;
         margin-block: 90px;
     }        
 
     .reco__tittle{
-        font-size: clamp(1rem,2.5vw, 3rem);  
+        font-size: clamp(1rem,2.2vw, 3rem);  
     }
 
     .reco__parrafo{
-        font-size: clamp(1rem,1.6vw, 2rem); 
+        font-size: clamp(1rem,1.3vw, 2rem); 
+        
     }
 }
 
