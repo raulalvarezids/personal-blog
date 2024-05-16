@@ -23,7 +23,7 @@ import boost from '../assets/images/bos.png'
 import docker from '../assets/images/do.png'
 import mys from '../assets/images/my.png'
 import fig from '../assets/images/fg.png'
-
+import vue from '../assets/images/vue.png'
 
 import furl from '../assets/images/furl.png'
 import ex from '../assets/images/muscle.png'
@@ -43,12 +43,21 @@ const projects : Proyectos[]  = [
         back:'https://github.com/raulalvarezids/url-shortener-api'
     },
     {
-        name:'Muslce Exercises',
-        descripcion:'Muestra músculos del cuerpo y ejercicios que puedes realizar para entrenar cada uno de ellos.',
+        name:'Muslce Exercises React',
+        descripcion:'Muestra músculos del cuerpo y ejercicios que puedes realizar para entrenar cada uno de ellos. Hecho con React',
         img:ex,        
         tecnologias:[{img:rc,name:'React js'}, {img:ts,name:'Typescript'}],
         url:'https://exercise-blog.netlify.app/',
         front:'https://github.com/raulalvarezids/exercises-blog',
+        back:null
+    },
+    {
+        name:'Muslce Exercises Vue js',
+        descripcion:'Muestra músculos del cuerpo y ejercicios que puedes realizar para entrenar cada uno de ellos. Hecho con Vue js',
+        img:ex,        
+        tecnologias:[{img:vue,name:'Vue js'}, {img:ts,name:'Typescript'}],
+        url:'https://exercise-vue-blog.netlify.app',
+        front:'https://github.com/raulalvarezids/exercises-blog-vue',
         back:null
     },
     {
@@ -80,7 +89,8 @@ const ssk : Tecnoloy[] = [
     {img:boost,name:'Bootstrap'},
     {img:docker,name:'Docker'},
     {img:mys,name:'MySql'},
-    {img:fig,name:'Figma'}    
+    {img:fig,name:'Figma'},
+    {img:vue,name:'Vue js'},
 ]
 
 function Home() {
