@@ -24,6 +24,7 @@ import docker from '../assets/images/do.png'
 import mys from '../assets/images/my.png'
 import fig from '../assets/images/fg.png'
 import vue from '../assets/images/vue.png'
+import nest from '../assets/images/nestjs.png'
 
 import furl from '../assets/images/furl.png'
 import ex from '../assets/images/muscle.png'
@@ -31,6 +32,8 @@ import { Proyectos, Tecnoloy } from '../interface/proyecto';
 import Skills from '../components/Skills';
 import SoftSkills from '../components/SoftSkills';
 import Education from '../components/Education';
+import todoPic from '../assets/images/nestPic.png'
+
 
 const projects : Proyectos[]  = [
     {
@@ -41,6 +44,15 @@ const projects : Proyectos[]  = [
         url:'https://free-url-shortener-personal.netlify.app',
         front:'https://github.com/raulalvarezids/url-shortener-front',
         back:'https://github.com/raulalvarezids/url-shortener-api'
+    },
+    {
+        name:'Todo App',
+        descripcion:'Es una página de tareas, hay tareas volátiles y permanentes iniciando sesión. backend hecho con Nest js.',
+        img:todoPic,
+        tecnologias:[{img:node,name:'Node js'},{img:nest,name:'Nest Js'}, {img:vue,name:'Vue js'},{img:ts,name:'Typescript'},{img:mongo,name:'Mongodb'}],
+        url:'https://todonewappracz.netlify.app',
+        front:'https://github.com/raulalvarezids/todo-front',
+        back:'https://github.com/raulalvarezids/todo-api'
     },
     {
         name:'Muslce Exercises React',
@@ -69,6 +81,7 @@ const projects : Proyectos[]  = [
         front:'https://github.com/raulalvarezids/gym-front',
         back:'https://github.com/raulalvarezids/gym-api'
     },
+    
    
 ]
 
@@ -91,6 +104,7 @@ const ssk : Tecnoloy[] = [
     {img:mys,name:'MySql'},
     {img:fig,name:'Figma'},
     {img:vue,name:'Vue js'},
+    {img:nest,name:'Nest Js'}
 ]
 
 function Home() {
