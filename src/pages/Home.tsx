@@ -59,7 +59,7 @@ const projects : Proyectos[]  = [
         name:'Note App',
         descripcion:'Aplicación de notas, crud completo, con inicio de sesión de usuarios.',
         img:noteapp,        
-        tecnologias:[{img:dj,name:'Djando'}, {img:vue,name:'Vue js'},{img:ts,name:'Typescript'}],
+        tecnologias:[{img:dj,name:'Djando'}, {img:vue,name:'Vue js'},{img:ts,name:'Typescript'},{img:pos,name:'Postgresql'}],
         url:'https://notespractice.netlify.app',
         front:'https://github.com/raulalvarezids/frontendnotes',
         back:'https://github.com/raulalvarezids/backendnotes'
