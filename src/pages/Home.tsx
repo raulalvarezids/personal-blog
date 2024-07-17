@@ -26,6 +26,7 @@ import fig from '../assets/images/fg.png'
 import vue from '../assets/images/vue.png'
 import nest from '../assets/images/nestjs.png'
 
+
 import furl from '../assets/images/furl.png'
 import ex from '../assets/images/muscle.png'
 import { Proyectos, Tecnoloy } from '../interface/proyecto';
@@ -33,7 +34,7 @@ import Skills from '../components/Skills';
 import SoftSkills from '../components/SoftSkills';
 import Education from '../components/Education';
 import todoPic from '../assets/images/nestPic.png'
-
+import noteapp from '../assets/images/noteapp.png'
 
 const projects : Proyectos[]  = [
     {
@@ -53,6 +54,15 @@ const projects : Proyectos[]  = [
         url:'https://todonewappracz.netlify.app',
         front:'https://github.com/raulalvarezids/todo-front',
         back:'https://github.com/raulalvarezids/todo-api'
+    },
+    {
+        name:'Note App',
+        descripcion:'Aplicación de notas, crud completo, con inicio de sesión de usuarios.',
+        img:noteapp,        
+        tecnologias:[{img:dj,name:'Djando'}, {img:vue,name:'Vue js'},{img:ts,name:'Typescript'}],
+        url:'https://notespractice.netlify.app',
+        front:'https://github.com/raulalvarezids/frontendnotes',
+        back:'https://github.com/raulalvarezids/backendnotes'
     },
     {
         name:'Muslce Exercises React',
