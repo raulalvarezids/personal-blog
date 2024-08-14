@@ -25,7 +25,8 @@ import mys from '../assets/images/my.png'
 import fig from '../assets/images/fg.png'
 import vue from '../assets/images/vue.png'
 import nest from '../assets/images/nestjs.png'
-
+import rails from '../assets/images/rails.png'
+import ruby from '../assets/images/ruby.png'
 
 import furl from '../assets/images/furl.png'
 import ex from '../assets/images/muscle.png'
@@ -35,6 +36,8 @@ import SoftSkills from '../components/SoftSkills';
 import Education from '../components/Education';
 import todoPic from '../assets/images/nestPic.png'
 import noteapp from '../assets/images/noteapp.png'
+import gamesblog from '../assets/images/gameblog.png'
+import tailw from '../assets/images/tailwin.png'
 
 const projects : Proyectos[]  = [
     {
@@ -54,6 +57,15 @@ const projects : Proyectos[]  = [
         url:'https://todonewappracz.netlify.app',
         front:'https://github.com/raulalvarezids/todo-front',
         back:'https://github.com/raulalvarezids/todo-api'
+    },
+    {
+        name:'GamesBlog',
+        descripcion:'Un blog donde puedes compartir una review de algún videojuego.',
+        img:gamesblog,        
+        tecnologias:[{img:rails,name:'Ruby on rails'}, {img:ruby,name:'Ruby'},{img:tailw,name:'Tailwind css '}],
+        url:'https://gamesblog.onrender.com',
+        front:'https://github.com/raulalvarezids/gamesblog',
+        back:null
     },
     {
         name:'Note App',
@@ -114,7 +126,11 @@ const ssk : Tecnoloy[] = [
     {img:mys,name:'MySql'},
     {img:fig,name:'Figma'},
     {img:vue,name:'Vue js'},
-    {img:nest,name:'Nest Js'}
+    {img:nest,name:'Nest Js'},
+    {img:rails,name:'Ruby on rails'}, 
+    {img:ruby,name:'Ruby'},
+    {img:tailw,name:'Tailwind css '}
+
 ]
 
 function Home() {
